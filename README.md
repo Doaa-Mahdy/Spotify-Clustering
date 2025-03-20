@@ -25,6 +25,7 @@ This document provides a step-by-step guide to executing the Big Data Assignment
    ```sh
    mkdir -p bd-a1
 2. Download and place your dataset in the bd-a1/ directory.
+   ```sh
    cp /path/to/your/dataset.csv bd-a1/
 ## Step 2: Create the Dockerfile with specifications
 include requirements Python packages: python3, pandas, numpy, seaborn, matplotlib, scikit-learn, scipy.
