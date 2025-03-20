@@ -40,4 +40,7 @@ chmod +x final.sh
 ## Step 6: push to docker hub
 docker login
 docker push <username>/<image_name>
+
+
+
 Link: https://hub.docker.com/repository/docker/da3do3a/bd-a1/general
