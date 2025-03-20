@@ -1,0 +1,1 @@
+Insight 3: Songs with a lower tempo (below 121.99 BPM) have an average danceability of 0.68, while faster songs (above 121.99 BPM) have an average danceability of 0.63. Slower songs tend to be more danceable.

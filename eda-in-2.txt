@@ -1,0 +1,1 @@
+Insight 2: The correlation between loudness and valence (happiness) is 0.05, suggesting a positive relationship.
