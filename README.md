@@ -26,15 +26,16 @@ This document provides a step-by-step guide to executing the Big Data Assignment
    mkdir -p bd-a1
 2. Download and place your dataset in the bd-a1/ directory.
    cp /path/to/your/dataset.csv bd-a1/
-## Step 2: Create the Dockerfile
+## Step 2: Create the Dockerfile with specifications
+include requirements Python packages: python3, pandas, numpy, seaborn, matplotlib, scikit-learn, scipy.
 ## Step 3: Build the image
-cd bd-a1
-docker build -t bd-a1-image .
+docker build -t <image_name> 
 ## Step 4: Run docker container
-docker run -it --name bd-a1-container bd-a1-image
-
-## Step 5:Execute the Python Scripts Inside the Container
-
-## Step 6:create bash script to run the data analysis pipline
+docker run --name <container_name> <image_name>
+## Step 5:create bash script to run the data analysis pipline
 chmod +x final.sh
 ./final.sh
+## Step 6: push to docker hub
+
+docker login
+docker push <username>/<image_name>
