@@ -33,10 +33,11 @@ include requirements Python packages: python3, pandas, numpy, seaborn, matplotli
 docker build -t <image_name> 
 ## Step 4: Run docker container
 docker run --name <container_name> <image_name>
+
 ## Step 5:create bash script to run the data analysis pipline
 chmod +x final.sh
 ./final.sh
 ## Step 6: push to docker hub
-
 docker login
 docker push <username>/<image_name>
+Link: https://hub.docker.com/repository/docker/da3do3a/bd-a1/general
